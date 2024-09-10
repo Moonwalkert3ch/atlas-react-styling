@@ -3,11 +3,11 @@ import PlayListItem from "./PlayListItem";
 
 export default function Playlist() {
   return (
-    <div className="flex w-1/2 flex-col border-t p-6 sm:w-full md:border-l md:border-t-0">
+    <div className="flex w-1/2 flex-col md:flex-row bg-light-red border-t p-6 sm:w-full md:border-l md:border-t-0">
       <h2 className="mb-4 text-lg font-semibold text-black">Playlist</h2>
       <div className="flex flex-col pr-4">
         <PlayListItem title="Painted in Blue" artist="Soul Canvas" songLength="5:55" />
-        <PlayListItem className="bg-slate-300" title="Tidal Drift" artist="Echoes of the Sea" songLength="8:02" />
+        <PlayListItem className="text-slate-300" title="Tidal Drift" artist="Echoes of the Sea" songLength="8:02" />
         <PlayListItem title="Fading Shadows" artist="The Emberlight" songLength="3:01" />
         <PlayListItem title="Cosmic Drift" artist="Solar Flare" songLength="5:01" />
         <PlayListItem title="Urban Serenade" artist="Midnight Groove" songLength="4:54" />
