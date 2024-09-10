@@ -5,6 +5,7 @@ import { SongTitle } from "./components/SongTitle";
 import { PlayControls } from "./components/PlayControls";
 import { VolumeControl } from "./components/VolumeControls";
 import { CurrentlyPlaying } from "./components/CurrentlyPlaying";
+import PlayListItem from "./components/PlayListItem";
 
 function App() {
   return (
