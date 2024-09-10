@@ -15,8 +15,8 @@ function App() {
       {/* <SongTitle /> */}
       {/* <PlayControls /> */}
       {/* <VolumeControl /> */}
-      <CurrentlyPlaying />
-      <Playlist />
+      {/* <CurrentlyPlaying /> */}
+      {/* <Playlist /> */}
       <MusicPlayer />
       <Footer />
     </div>
