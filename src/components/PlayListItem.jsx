@@ -12,7 +12,7 @@ export default function PlayListItem() {
         <p className="text-sm font-medium text-slate-500">{title}</p>
         <p className="text-sm font-medium text-black">{artist}</p>
       </div>
-      <p className="text-sm font-medium text-black">{songLength}</p>
+      <p className="absolute right-0 top-1/2 transform -translate-y-1/2 text-sm font-medium text-slate-500">{songLength}</p>
     </div>
   );
 }

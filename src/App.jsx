@@ -15,6 +15,7 @@ function App() {
       {/* <PlayControls /> */}
       {/* <VolumeControl /> */}
       <CurrentlyPlaying />
+      <PlayListItem />
       <MusicPlayer />
       <Footer />
     </div>
