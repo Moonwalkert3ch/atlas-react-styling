@@ -1,13 +1,8 @@
 import React from "react";
 
-export default function PlayListItem() {
-  const title = "Electric Fever";
-  const artist = "Neon Jungle";
-  const songLength = "8:41";
-  const genre = "IKD";
-
+export default function PlayListItem({ title, artist, songLength, className }) {
   return (
-    <div className="flex flex-col justify-center p-4 relative">
+    <div className={`flex flex-col justify-center p-4 relative ${className}`}>
       <div className="flex flex-col">
         <p className="text-sm font-medium text-slate-500">{title}</p>
         <p className="text-sm font-medium text-black">{artist}</p>

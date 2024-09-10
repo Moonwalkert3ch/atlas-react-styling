@@ -6,6 +6,7 @@ import { PlayControls } from "./components/PlayControls";
 import { VolumeControl } from "./components/VolumeControls";
 import { CurrentlyPlaying } from "./components/CurrentlyPlaying";
 import PlayListItem from "./components/PlayListItem";
+import Playlist from "./components/Playlist";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       {/* <PlayControls /> */}
       {/* <VolumeControl /> */}
       <CurrentlyPlaying />
-      <PlayListItem />
+      <Playlist />
       <MusicPlayer />
       <Footer />
     </div>
